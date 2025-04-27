@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "es2020",
+    "lib": ["ES2022"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+    "outDir": "dist",         // Le dossier où les fichiers JavaScript compilés seront placés
+    "rootDir": "src",         // Le dossier d'entrée des fichiers TypeScript
+    "noEmit": true,           // Assure-toi que TypeScript n'émet pas les fichiers JavaScript
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}
